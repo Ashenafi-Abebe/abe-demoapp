@@ -1,0 +1,38 @@
+body {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+input {
+  font-size: 1em;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+.notice {
+  color: #ff0000;
+}
+.button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.loginButton {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

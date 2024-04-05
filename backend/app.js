@@ -21,6 +21,17 @@ connection.connect((error) => {
   }
 });
 
+// allow cross origin requests
+app.use((req, res, next) => {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader(
+    "Access-Control-Allow-Methods",
+    "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+  );
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
+  next();
+});
+
 // Route handler for adding an employee
 app.post("/add-employee", (req, res) => {
   console.log(req.body);
