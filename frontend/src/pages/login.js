@@ -12,7 +12,7 @@ function Login() {
       email: email,
       password: password,
     };
-    fetch("http://localhost:4000/Login", {
+    fetch("http://3.19.242.82:4000/Login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
