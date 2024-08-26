@@ -11,6 +11,7 @@ const dbConfig = {
   host: process.env.DB_HOST,
   database: process.env.DB_DATABASE,
 };
+// test
 
 const connection = mysql.createConnection(dbConfig);
 connection.connect((error) => {
